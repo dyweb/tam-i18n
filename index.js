@@ -12,10 +12,7 @@ module.exports = function (tam, assets, gulp) {
   var option = assets.plugins['tam-i18n'];
 
   gulp.src(option.src)
-    .pipe(i18n({
-      langDir: './lang',
-      trace: true
-    }))
+    .pipe(i18n(option))
     .pipe(gulp.dest(option.dest));
 
 };
