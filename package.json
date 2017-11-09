@@ -1,0 +1,31 @@
+{
+  "name": "tam-i18n",
+  "version": "0.1.0",
+  "description": "i18n Support for Tam.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyweb/tam-i18n.git"
+  },
+  "keywords": [
+    "Tam",
+    "i18n",
+    "assets"
+  ],
+  "author": "ComMouse <hanyikai1996@126.com> (https://github.com/ComMouse)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyweb/tam-i18n/issues"
+  },
+  "homepage": "https://github.com/dyweb/tam-i18n",
+  "devDependencies": {
+    "eslint": "1.8.0"
+  },
+  "dependencies": {
+    "gulp-minify-html": "1.0.4",
+    "gulp-replace": "0.5.4"
+  }
+}
