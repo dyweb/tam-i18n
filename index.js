@@ -11,7 +11,7 @@ module.exports = function (tam, assets, gulp) {
   var linked = tam.read(assets.linked);
   var option = assets.plugins['tam-i18n'];
 
-  gulp.src(option.src)
+  return gulp.src(option.src)
     .pipe(i18n(option))
     .pipe(gulp.dest(option.dest));
 
