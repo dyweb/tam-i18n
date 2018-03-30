@@ -1,6 +1,6 @@
 # Tam-i18n
 
-HTML i18n(internationalization) support for [Tam](https://github.com/arrowrowe/tam-html).
+HTML i18n (internationalization) support for [Tam](https://github.com/arrowrowe/tam).
 
 ## Usage
 
